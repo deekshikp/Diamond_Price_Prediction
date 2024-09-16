@@ -1,0 +1,6 @@
+install.packages("ggplot2")
+install.packages("tidyverse")
+library("ggplot2")
+data(diamonds)
+write.csv(diamonds, "dia.csv")
+View(diamonds)
